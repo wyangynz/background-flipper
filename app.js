@@ -1,7 +1,15 @@
+const colorArray = ["thistle", "cornflowerblue", "mintgreen", "mistyrose"];
 const button = document.getElementById("change-bg-button");
-const color = document.querySelector(".color");
+const colorText = document.querySelector(".color-text");
 
 button.addEventListener("click", function () {
-  console.log(document.body);
-  document.body.style.background = "red";
+  //   console.log(document.body);
+  // const randomNumber = getRandomNumber();
+  const randomNumber = 0;
+  document.body.style.background = colorArray[randomNumber];
+  colorText = colorArray[randomNumber];
 });
+
+const getRandomNumber = () => {
+  return Math.random();
+};
