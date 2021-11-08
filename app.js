@@ -1,16 +1,16 @@
-const colorArray = [
-  "thistle",
-  "cornflowerblue",
-  "mintcream",
-  "mistyrose",
-  "honeydew",
-  "peachpuff",
-  "papayawhip",
-  "antiquewhite",
-  "lavender",
-  "tomato",
-  "lightcoral",
-];
+// const colorArray = [
+//   "thistle",
+//   "cornflowerblue",
+//   "mintcream",
+//   "mistyrose",
+//   "honeydew",
+//   "peachpuff",
+//   "papayawhip",
+//   "antiquewhite",
+//   "lavender",
+//   "tomato",
+//   "lightcoral",
+// ];
 const button = document.getElementById("change-bg-button");
 const colorText = document.querySelector(".color-text");
 
